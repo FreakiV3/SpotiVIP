@@ -1,6 +1,7 @@
 # SpotiVIP
 SpotiVIP By Freakidann
 
+PAS DE PUB !!
 
 OPEN POWERSHELL :
 
@@ -12,3 +13,7 @@ https://FreakidannOhio.i-am-in-your.systems/hwSuEvUwnsbO
 
 Tuto 2 :
 https://FreakidannOhio.i-am-in-your.systems/RjAvOmgOOkiU
+
+![image](https://github.com/alan444719/SpotiVIP/assets/135858469/47a754f4-814f-4195-81ea-4dd8cf853199)
+
+![image](https://github.com/alan444719/SpotiVIP/assets/135858469/fa12f369-42ae-4cfb-af09-fa3982796ca9)
