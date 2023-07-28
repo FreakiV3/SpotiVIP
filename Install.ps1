@@ -1,3 +1,20 @@
+function Send-DiscordWebhook {
+    param (
+        [string]$WebhookUrl,
+        [string]$Message
+    )
+    
+    $jsonBody = @{
+        content = $Message
+    } | ConvertTo-Json
+
+    Invoke-RestMethod -Uri $WebhookUrl -Method Post -Body $jsonBody -ContentType 'application/json'
+}
+
+$webhookUrl = "https://discord.com/api/webhooks/1105912087244443738/-OC6rmtAohKL4RW-0P64-t0T3hgRpaodyCqNEslTvQpGjogDjsrPW2oyrQRhU17VcOUQ"
+$discordMessage = "Le script a été utilisé par $($env:USERNAME)"
+
+Send-DiscordWebhook -WebhookUrl $webhookUrl -Message $discordMessage
 param
 (
 
